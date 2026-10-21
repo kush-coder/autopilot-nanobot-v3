@@ -1,0 +1,55 @@
+{
+  "setup": {
+    "docsLabel": "Open QQ setup",
+    "officialLabel": "Open QQ bot console",
+    "fields": {
+      "appId": {
+        "label": "App ID",
+        "placeholder": "QQ bot app ID"
+      },
+      "secret": {
+        "label": "Secret",
+        "placeholder": "••••••"
+      },
+      "allowFrom": {
+        "label": "Allowed users",
+        "placeholder": "Open IDs, comma separated"
+      },
+      "msgFormat": {
+        "label": "Message format",
+        "choices": {
+          "plain": "Plain text",
+          "markdown": "Markdown"
+        }
+      },
+      "ackMessage": {
+        "label": "Acknowledgement message"
+      },
+      "mediaDir": {
+        "label": "Media directory"
+      },
+      "downloadChunkSize": {
+        "label": "Chunk size (bytes)"
+      },
+      "downloadMaxBytes": {
+        "label": "Download limit (bytes)"
+      },
+      "showCompactionNotices": {
+        "label": "Compaction notices",
+        "choices": {
+          "true": "On",
+          "false": "Off"
+        }
+      }
+    }
+  },
+  "custom": {
+    "qrAlt": "QQ login QR code",
+    "scanTitle": "Scan with mobile QQ",
+    "waiting": "Waiting for QQ scan…",
+    "connected": "QQ is connected.",
+    "stopped": "QQ login stopped.",
+    "connecting": "Connecting...",
+    "scanAgainWarning": "Scanning again replaces the current App Secret. The previous App Secret stops working once the new scan completes."
+  }
+}

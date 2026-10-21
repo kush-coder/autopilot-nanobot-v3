@@ -1,0 +1,55 @@
+{
+  "setup": {
+    "docsLabel": "Buka panduan QQ",
+    "officialLabel": "Buka konsol bot QQ",
+    "fields": {
+      "appId": {
+        "label": "App ID",
+        "placeholder": "App ID bot QQ"
+      },
+      "secret": {
+        "label": "Secret",
+        "placeholder": "••••••"
+      },
+      "allowFrom": {
+        "label": "Pengguna diizinkan",
+        "placeholder": "Open ID, dipisahkan koma"
+      },
+      "msgFormat": {
+        "label": "Format pesan",
+        "choices": {
+          "plain": "Teks biasa",
+          "markdown": "Markdown"
+        }
+      },
+      "ackMessage": {
+        "label": "Pesan penerimaan"
+      },
+      "mediaDir": {
+        "label": "Direktori media"
+      },
+      "downloadChunkSize": {
+        "label": "Ukuran chunk (byte)"
+      },
+      "downloadMaxBytes": {
+        "label": "Batas unduhan (byte)"
+      },
+      "showCompactionNotices": {
+        "label": "Pemberitahuan pemadatan",
+        "choices": {
+          "true": "Aktif",
+          "false": "Nonaktif"
+        }
+      }
+    }
+  },
+  "custom": {
+    "scanTitle": "Pindai dengan QQ seluler",
+    "waiting": "Menunggu pindaian QQ…",
+    "connected": "QQ terhubung.",
+    "stopped": "Login QQ dihentikan.",
+    "connecting": "Menghubungkan…",
+    "qrAlt": "Kode QR login QQ",
+    "scanAgainWarning": "Memindai ulang menggantikan App Secret saat ini. App Secret lama tidak lagi berfungsi setelah pemindaian baru selesai."
+  }
+}

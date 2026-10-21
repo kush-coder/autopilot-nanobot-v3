@@ -1,0 +1,55 @@
+{
+  "setup": {
+    "docsLabel": "QQ 設定ガイドを開く",
+    "officialLabel": "QQ ボットコンソールを開く",
+    "fields": {
+      "appId": {
+        "label": "App ID",
+        "placeholder": "QQ ボット App ID"
+      },
+      "secret": {
+        "label": "Secret",
+        "placeholder": "••••••"
+      },
+      "allowFrom": {
+        "label": "許可ユーザー",
+        "placeholder": "Open ID（カンマ区切り）"
+      },
+      "msgFormat": {
+        "label": "メッセージ形式",
+        "choices": {
+          "plain": "プレーンテキスト",
+          "markdown": "Markdown"
+        }
+      },
+      "ackMessage": {
+        "label": "受信確認のメッセージ"
+      },
+      "mediaDir": {
+        "label": "メディアディレクトリ"
+      },
+      "downloadChunkSize": {
+        "label": "チャンクのサイズ（バイト）"
+      },
+      "downloadMaxBytes": {
+        "label": "ダウンロードの上限（バイト）"
+      },
+      "showCompactionNotices": {
+        "label": "圧縮の通知",
+        "choices": {
+          "true": "オン",
+          "false": "オフ"
+        }
+      }
+    }
+  },
+  "custom": {
+    "scanTitle": "モバイル QQ でスキャン",
+    "waiting": "QQ のスキャンを待っています…",
+    "connected": "QQ に接続しました。",
+    "stopped": "QQ ログインを停止しました。",
+    "connecting": "接続中…",
+    "qrAlt": "QQ ログイン QR コード",
+    "scanAgainWarning": "再スキャンすると現在の App Secret が置き換わります。新しいスキャンが完了すると、以前の App Secret は無効になります。"
+  }
+}

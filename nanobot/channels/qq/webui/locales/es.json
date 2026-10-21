@@ -1,0 +1,55 @@
+{
+  "setup": {
+    "docsLabel": "Abrir guía de QQ",
+    "officialLabel": "Abrir consola del bot de QQ",
+    "fields": {
+      "appId": {
+        "label": "App ID",
+        "placeholder": "App ID del bot de QQ"
+      },
+      "secret": {
+        "label": "Secret",
+        "placeholder": "••••••"
+      },
+      "allowFrom": {
+        "label": "Usuarios permitidos",
+        "placeholder": "Open ID separados por comas"
+      },
+      "msgFormat": {
+        "label": "Formato de mensajes",
+        "choices": {
+          "plain": "Texto sin formato",
+          "markdown": "Markdown"
+        }
+      },
+      "ackMessage": {
+        "label": "Mensaje de recepción"
+      },
+      "mediaDir": {
+        "label": "Directorio de medios"
+      },
+      "downloadChunkSize": {
+        "label": "Tamaño de bloque (bytes)"
+      },
+      "downloadMaxBytes": {
+        "label": "Límite de descarga (bytes)"
+      },
+      "showCompactionNotices": {
+        "label": "Avisos de compactación",
+        "choices": {
+          "true": "Activado",
+          "false": "Desactivado"
+        }
+      }
+    }
+  },
+  "custom": {
+    "scanTitle": "Escanea con QQ móvil",
+    "waiting": "Esperando el escaneo de QQ…",
+    "connected": "QQ está conectado.",
+    "stopped": "El inicio de sesión de QQ se detuvo.",
+    "connecting": "Conectando…",
+    "qrAlt": "Código QR de inicio de sesión de QQ",
+    "scanAgainWarning": "Escanear de nuevo reemplaza el App Secret actual. El App Secret anterior deja de funcionar cuando termina el nuevo escaneo."
+  }
+}
